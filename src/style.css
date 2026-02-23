@@ -42,9 +42,6 @@ button:hover {
   color: white;
 }
 
-html, body {
-  height: auto;
-}
 
 .highlight {
   margin: 20px 0;
