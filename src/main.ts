@@ -12,8 +12,6 @@ let totalPoints = 1;
 const maxPoints = 120;
 const growthRate = 0.15;
 
-/* Geometry */
-const radius = 160;
 
 /* ============================
    STAGE CONTENT
@@ -226,6 +224,8 @@ function drawRegularPolygon(p: p5, sides: number) {
 
 function drawRadiusLine(p: p5, cx: number, cy: number, sides: number) {
 
+  const radius = Math.min(p.width, p.height) * 0.35;
+
   const angle = p.TWO_PI / sides * 0;
   const x = cx + radius * p.cos(angle);
   const y = cy + radius * p.sin(angle);
@@ -240,6 +240,7 @@ function drawRadiusLine(p: p5, cx: number, cy: number, sides: number) {
 
 function drawGrowingPolygon(p: p5, cx: number, cy: number) {
 
+  const radius = Math.min(p.width, p.height) * 0.35;
   // Gradual growth
   if (totalPoints < maxPoints) {
     totalPoints += growthRate;
