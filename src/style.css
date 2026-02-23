@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#story {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+#introImage {
+  width: 320px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto 20px auto;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto 10px auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 18px;
+  font-size: 14px;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #333;
+  color: white;
+}
+
+html, body {
+  height: auto;
+}
+
+.highlight {
+  margin: 20px 0;
+  padding: 16px 18px;
+  background-color: #f2f2f2;
+  border-left: 4px solid #333;
+  line-height: 1.6;
+}
