@@ -120,11 +120,17 @@ const stages: StageContent[] = [
 
 new p5((p: p5) => {
 
-  p.setup = () => {
-    const canvas = p.createCanvas(500, 500);
-    canvas.parent("app");
-    updateText();
-  };
+ p.setup = () => {
+  const size = Math.min(window.innerWidth * 0.9, 500);
+  const canvas = p.createCanvas(size, size * 0.75);
+  canvas.parent("app");
+  updateText();
+};
+
+p.windowResized = () => {
+  const size = Math.min(window.innerWidth * 0.9, 500);
+  p.resizeCanvas(size, size * 0.75);
+};
 
   p.draw = () => {
     p.background(245);
