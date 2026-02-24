@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0 12px;
   background: #f5f5f5;
   font-family: serif;
 }
@@ -8,32 +7,34 @@ body {
 main {
   max-width: 700px;
   margin: 60px auto;
-  padding-bottom: 40px;
+  padding: 0 16px 40px;
   text-align: center;
 }
 
 #story {
-  margin-bottom: 20px;
   line-height: 1.6;
+  margin-bottom: 24px;
 }
 
 #introImage {
-  width: 90%;
+  display: block;
+  width: 85%;
   max-width: 320px;
   height: auto;
+  margin: 0 auto 30px auto;
 }
 
 canvas {
   display: block;
-  margin: 20px auto 10px auto;
   width: 100%;
   height: auto;
+  margin: 20px auto 10px auto;
 }
 
 button {
-  margin-top: 10px;
-  padding: 8px 18px;
-  font-size: 14px;
+  margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 15px;
   border: 1px solid #333;
   background: white;
   cursor: pointer;
@@ -45,9 +46,8 @@ button:hover {
   color: white;
 }
 
-
 .highlight {
-  margin: 20px 0;
+  margin: 24px 0;
   padding: 16px 18px;
   background-color: #f2f2f2;
   border-left: 4px solid #333;

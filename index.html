@@ -2,23 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>geometry-lab</title>
   </head>
-<body>
-  <main>
 
-    <p id="story"></p>
+  <body>
+    <main>
 
-    <img id="introImage" src="/public/kleon.png" />
+      <!-- MUST be div, not p -->
+      <div id="story"></div>
 
-    <div id="app"></div>
+      <!-- Vite path fix -->
+      <img id="introImage" src="/public/kleon.png" />
 
-    <button id="nextBtn" onclick="nextStage()"></button>
+      <div id="app"></div>
 
-  </main>
+      <button id="nextBtn" onclick="nextStage()"></button>
 
-  <script type="module" src="/src/main.ts"></script>
-</body>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
