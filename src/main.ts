@@ -16,22 +16,24 @@ const growthRate = 0.15;
 ============================ */
 
 type StageContent = {
+  title?: string;
   text: string;
   button: string;
 };
 
 const stages: StageContent[] = [
   {
+    title: "The Unfolding",
     text: `
-    I was reading a book and came across a beautiful illustration.<br>
+    I was reading a book by Austin Kleon and came across a beautiful illustration.<br>
     One idea. Then two. Then three.<br>
-    Slowly, shapes began to appear.<br><br>
+    Slowly, structure began to emerge.<br><br>
 
     Kleon was talking about creativity. Collect enough ideas, and you stop being something rigid and angular.<br>
-    The more ideas you absorb, the more you stop being shard edged and start becoming whole..<br><br>
+    The more ideas you absorb, the more you stop being sharp edged and start becoming whole..<br><br>
 
-    But the moment I saw that illustration, my mind went somewhere else entirely:<br>
-    this is exactly how geometry works.<br>
+    But the moment I saw that illustration, I was drawn straight into the world of mathematics:<br>
+    to the quiet logic of geometry.<br>
 
     The circle looks like the simplest shape in the room.<br>
     But mathematically, it is the shape that requires the most<br>
