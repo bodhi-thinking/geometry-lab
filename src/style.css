@@ -26,6 +26,8 @@ main {
 canvas {
   display: block;
   margin: 20px auto 10px auto;
+  width: 100%;
+  height: auto;
 }
 
 button {
