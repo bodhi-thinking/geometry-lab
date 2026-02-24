@@ -27,13 +27,15 @@ const stages: StageContent[] = [
     One idea. Then two. Then three.<br>
     Slowly, shapes began to appear.<br><br>
 
-    Kleon was talking about creativity.Collect enough ideas, and you stop being something rigid and angular.<br>
+    Kleon was talking about creativity. Collect enough ideas, and you stop being something rigid and angular.<br>
     The more ideas you absorb, the more you stop being shard edged and start becoming whole..<br><br>
 
-    But the moment I saw that illustration, my mind went somewhere else entirely: this is exactly how geometry works.<br>
+    But the moment I saw that illustration, my mind went somewhere else entirely:<br>
+    this is exactly how geometry works.<br>
 
     The circle looks like the simplest shape in the room.<br>
-    But mathematically, it is the shape that requires the most — infinite points, infinite sides, infinite ideas to truly exist.<br>
+    But mathematically, it is the shape that requires the most<br>
+     — infinite points, infinite sides, infinite ideas to truly exist.<br>
 
     Every polygon is just a circle that gave up too early.<br><br>
 
