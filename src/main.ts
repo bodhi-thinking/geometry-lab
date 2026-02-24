@@ -20,7 +20,111 @@ type StageContent = {
   button: string;
 };
 
-const stages: StageContent[] = [/* keep your existing stages unchanged */];
+const stages: StageContent[] = [
+  {
+    text: `
+    I was reading a book and came across a beautiful illustration.<br>
+    One idea. Then two. Then three.<br>
+    Slowly, shapes began to appear.<br><br>
+
+    There is something deeply mathematical about this.<br>
+    It got me thinking about geometry's most fundamental building block.<br><br>
+
+    Kleon meant it as a creative argument — collect enough influences, absorb enough ideas, and you stop being something rigid and angular.<br>
+    You become something fluid.<br><br>
+
+    But the moment I saw that illustration, my mind went somewhere else entirely: this is exactly how geometry works.<br>
+
+    The circle looks like the simplest shape in the room.<br>
+    But mathematically, it is the shape that requires the most — infinite points, infinite sides, infinite ideas — to truly exist.<br>
+
+    Every polygon is just a circle that gave up too early.<br><br>
+
+    Could we begin with a single point…<br>
+    and end with a circle?
+    `,
+    button: "Let’s begin."
+  },
+  {
+    text: `
+    A point has no length.<br>
+    No width.<br>
+    No height.<br><br>
+
+    Yet it does one thing nothing else can:<br>
+    it marks a position.
+    `,
+    button: "Place another point."
+  },
+  {
+    text: `
+    Two points appear.<br><br>
+
+    In how many ways can we connect them?<br><br>
+
+    And how many of those connections are shortest?
+    `,
+    button: "Add one more point."
+  },
+  {
+    text: `
+    Three non-collinear points form a triangle.<br><br>
+
+    If we place three points evenly around a circle,<br>
+    how many degrees apart must they be?<br><br>
+
+    One complete rotation is 360°.
+    `,
+    button: "Divide again."
+  },
+  {
+    text: `
+    Now four points.<br><br>
+
+    What is the angle between consecutive points<br>
+    if they are evenly spaced around the circle?
+    `,
+    button: "Keep dividing."
+  },
+  {
+    text: `
+    Five points.<br><br>
+
+    Six.<br>
+    Seven.<br>
+    Eight.<br><br>
+
+    As the number increases,<br>
+    what happens to the angle between them?
+    `,
+    button: "Watch closely."
+  },
+  {
+    text: `
+    As we keep adding points —<br>
+    edges shorten.<br>
+    corners soften.<br><br>
+
+    <div class="highlight">
+      <p>When did it stop being a polygon?</p>
+      <p>Is a circle truly different — or just a limit?</p>
+      <p>Is smoothness an illusion created by closeness?</p>
+    </div>
+
+    <br>
+
+    We kept adding points evenly.<br><br>
+
+    But how did the computer know<br>
+    where to place each one?<br><br>
+
+    What information is necessary<br>
+    to determine the position<br>
+    of a point around a circle?
+    `,
+    button: "Watch closely."
+  }
+];
 
 /* ============================
    P5 SKETCH
