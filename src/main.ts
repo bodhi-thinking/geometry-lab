@@ -27,11 +27,8 @@ const stages: StageContent[] = [
     One idea. Then two. Then three.<br>
     Slowly, shapes began to appear.<br><br>
 
-    There is something deeply mathematical about this.<br>
-    It got me thinking about geometry's most fundamental building block.<br><br>
-
-    Kleon meant it as a creative argument — collect enough influences, absorb enough ideas, and you stop being something rigid and angular.<br>
-    You become something fluid.<br><br>
+    Kleon was talking about creativity. — collect enough ideas, and you stop being something rigid and angular.<br>
+    The more ideas you absorb,the more you stop being angular — and start becoming whole..<br><br>
 
     But the moment I saw that illustration, my mind went somewhere else entirely: this is exactly how geometry works.<br>
 
